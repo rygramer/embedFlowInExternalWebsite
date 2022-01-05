@@ -14,7 +14,7 @@ You can use this sfdx project as a base configuration, you'll just need to make 
 })
 ```
 
-Here's the code for your to copy and paste into your website. Be sure to replace YOUR-SALESFORCE-SITE-URL; it should be something like `https://xxx.na163.force.com/`.
+Here's the code for you to copy and paste into your website. Be sure to replace YOUR-SALESFORCE-SITE-URL; it should be something like `https://xxx.na163.force.com/`.
 ```javascript
 <script src="https://YOUR-SALESFORCE-SITE-URL.com/lightning/lightning.out.js"></script>
 
