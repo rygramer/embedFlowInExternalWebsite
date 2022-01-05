@@ -4,7 +4,7 @@ In order to embed a Flow in an external website (like Wordpress), you have to:
 2. create an Aura App; and
 3. add a few lines of code to your website.
 
-You can use this sfdx project as a base configuration, you'll just need to make one small to the code to make it yours. In the `embedFlowInExternalWebsite.cmp' file of the Aura component, add YOUR_FLOW_API_NAME.
+You can use this sfdx project as a base configuration, you'll just need to make one small to the code to make it yours. In the `embedFlowInExternalWebsite.cmp` file of the Aura component, add YOUR_FLOW_API_NAME.
 ```javascript
 ({
     init : function (component) {
@@ -14,6 +14,7 @@ You can use this sfdx project as a base configuration, you'll just need to make 
 })
 ```
 
+Here's the code for your to copy and paste into your website. Be sure to replace YOUR-SALESFORCE-SITE-URL; it should be something like `https://xxx.na163.force.com/`.s
 ```javascript
 <script src="https://YOUR-SALESFORCE-SITE-URL.com/lightning/lightning.out.js"></script>
 
